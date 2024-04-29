@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F6690;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .teachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teacher-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .teacher-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .teachers {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .teacher-button {
+      width: 100%;
+    }
+  }
+
+  @font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap) format('woff2');
+    unicode-range: U+0600-06FF;
+  }
+  
+  @font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    src: url(https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap&ssl=true) format('woff2');
+    unicode-range: U+0600-06FF;
+  }
+ h1{
+    font-family: 'vazirmatn';
+    color: #D9DCD6;
+ }
+
+ a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'vazirmatn';
+    border-color: #81C3D7;
+ }
+
+.teacher-button{
+    background-color: #3A7CA5;
+    color: #D9DCD6;
+}
